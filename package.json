@@ -1,0 +1,36 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "description": "Boiler plate for Electron Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickmattiacci/electron-boilerplate.git"
+  },
+  "keywords": [
+    "Electron",
+    "Boilerplate"
+  ],
+  "author": "Nick Mattiacci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickmattiacci/electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nickmattiacci/electron-boilerplate#readme",
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-packager": "^10.1.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.2.1",
+    "moment": "^2.20.1",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  }
+}
